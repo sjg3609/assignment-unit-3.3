@@ -37,6 +37,19 @@ console.log(supplyChanges);
 console.log('6. Showing supplyChanges...');
 
 
+
+for (let x in supplyChanges) {
+    console.log(supplyChanges[x]) 
+        if (supplyChanges >= 0) {
+            console.log('Added parts');
+        } else if (supplyChanges === 0) {
+            console.log('No change.');
+        } else (supplyChanges < 0); {
+            console.log("Removed parts");
+        }
+}
+
+
 // STRETCH GOALS
 console.log('---  Stretch Goals  ---');
 // 7. Rewrite the `for` loop from #6 as a `for of` loop. 
