@@ -1,1 +1,6 @@
 /* give your assignment a fun background color */
+
+body {
+    background-color: darkgray;
+    color: white;
+}
